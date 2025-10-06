@@ -1,4 +1,4 @@
-package main.java.UD1.P1;
+package UD1.P3;
 
 import java.io.*;
 public class ej3_3_3 {
@@ -7,7 +7,7 @@ public class ej3_3_3 {
 
     public static void main(String[] args) {
  
-        String ruta = "/home/alumnadotarde/Escritorio/parejas.dat";
+        String ruta = "/home/alumnadotarde/Escritorio/parejas.txt";
 
         try (
             FileInputStream fis = new FileInputStream(ruta);

@@ -1,4 +1,5 @@
-package main.java.UD1.P1;
+package UD1.P3;
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -6,7 +7,7 @@ public class ej3_2_2 {
     public static void main(String[] args) {
        
 
-        String ruta = System.getProperty("user.home") + "/Escritorio/parejas.dat";
+        String ruta = System.getProperty("user.home") + "/Escritorio/parejas.txt";
 
         try (
             FileOutputStream fos = new FileOutputStream(ruta);

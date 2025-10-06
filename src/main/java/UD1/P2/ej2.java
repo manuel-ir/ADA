@@ -1,4 +1,4 @@
-package main.java.UD1.P1;
+package UD1.P2;
 
 import java.io.*;
 
